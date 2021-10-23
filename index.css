@@ -1,0 +1,192 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+body{
+    background-color: aqua;
+    max-width: 100%;
+    height: 100%;
+}
+.container{
+    background-color: grey;
+    max-width: 100%;
+    height: 100%;
+    /* display: flex; */
+    
+}
+.header{
+    
+    max-width: 100%;
+    height: 25%;
+    display: flex;
+}
+.total,.completed,.pending{
+    width: 21.5%;
+    height: 87%;
+    background-color: beige;
+    /* margin: 15px 20px; */
+    margin: 1.5%;
+    border-radius: 5px;
+    font-size: x-large;
+    box-shadow:  3px 3px none;
+    
+}
+.header .Text{
+    margin: 20px;
+}
+.topData i{
+    color: blue;
+    float: right;
+}
+.topData{
+    margin: 20px 20px;
+    font-weight: bold;
+}
+
+.search{
+    width: 23%;
+    max-height: 98%;
+    background-color: beige;
+    border-radius: 10px;
+    font-size: x-large;
+    box-shadow: 3px 3px none;
+}
+.input-group{
+    margin-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    height: 25%;
+    
+    /* border-right: 0px; */
+}
+.search .input-group .text{
+    font-size: medium;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-right: 0px;
+    width: 70%;
+    
+}
+.input-group .button{
+    font-size: medium;
+    width: 20%;
+    color: #fff;
+    background-color: red;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.body{
+    max-width: 95%;
+    height: 69%;
+    max-height: 100%;
+    background-color: beige;
+    margin: 2%;
+    margin-left: 1.5%;
+    border-radius: 5px;
+}
+table{
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    /* display: flex; */
+}
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 10%;
+}
+
+thead th:nth-child(3) {
+  width: 5%;
+}
+
+thead th:nth-child(4) {
+  width: 10%;
+}
+tr td:nth-child(5) > div{
+    padding: 2px;
+    width: 90%;
+    border: 3px solid #300b1a7a;
+    height: 10px;
+  }
+tr td:nth-child(5) > div > div{
+    height: 100%;
+    width: 0;
+    /* /* background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080); * */
+    background-color: green;
+    transition: 0.3s;
+  }
+thead {
+  text-transform: capitalize; 
+}
+tr td img{ 
+    box-sizing: border-box;
+    width: 25%; 
+    border-radius: 50%; 
+    height: 25%; 
+    cursor: pointer;
+  }
+  tr td:nth-last-child(4) {
+    width: 12%;
+  }
+  
+  tr td:nth-last-child(3) {
+    width: 15%;
+  }
+  th, tr {
+    padding: 15px;
+  }
+  
+  tr td {
+      color: rgb(71, 68, 68);
+      text-align: center;
+      padding: 20px 10px;
+      font-weight: 600;
+  }
+  /* tr td:nth-last-child(1) button{
+    background: #bcd0dd; 
+    background-image: url("https://png.pngtree.com/png-vector/20190419/ourlarge/pngtree-vector-cross-icon-png-image_956622.jpg"); 
+    
+  }
+  
+  tr td:nth-last-child(2) button{
+    background-image: url("https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_960_720.png"); 
+  } */
+tr{
+   border-top: 1px solid black;
+}
+td{
+    padding: 2%;
+}
+
+.tableData{
+    padding-top: 2%;
+    width: 100%;
+}
+
+.edit{
+ 
+    color: green;
+}
+.delete{
+    padding: 10%;
+    color: red;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.progressbar{
+    background-color: green;
+}
+.progressborder{
+    width: 70%;
+    border: 0px solid black ;
+    background-color: rgb(180, 175, 175);
+    height: 5px;
+    border-radius: 15%;
+}

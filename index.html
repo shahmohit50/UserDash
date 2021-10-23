@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Management</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="total">
+          <div class="topData">
+            <label class="totalVal">24</label>
+            <i class="fa fa-archive"></i>
+          </div>
+          <span class="Text">Total Projects</span>
+        </div>
+        <div class="completed">
+          <div class="topData">
+            <label class="totalVal">18</label>
+            <i class="fa fa-th"></i>
+          </div>
+          <span class="Text">Completed Projects</span>
+        </div>
+        <div class="pending">
+          <div class="topData">
+            <label class="totalVal">06</label>
+            <i class="fa fa-file"></i>
+          </div>
+          <span class="Text">Pending Projects</span>
+        </div>
+        <div class="search">
+          <div class="topData">
+            <label class="totalVal">Search</label>
+          </div>
+          <form class="input-group" onsubmit="#">
+            <input type="text" class="text" placeholder="Search.." required />
+            <button class="button" type="submit">
+              <i class="fa fa-search fa-1x"> </i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="body">
+          <div class="tableData">
+        <table>
+          <!-- <tr>
+            <td><b>#</b></td>
+            <td><b>Projects</b></td>
+            <td><b>Start Date</b></td>
+            <td><b>Status</b></td>
+            <td><b>Team</b></td>
+            <td><b>Progress</b></td>
+            <td><b>Action</b></td>
+          </tr>
+          <tr>
+            <td><b>1</b></td>
+            <td><input type="text" value="XXXX" disabled/></td>
+            <td><input type="date"  disabled/></td>
+            <td class="green"><select name="status" disabled>
+              <option value = "Completed">Completed</option>
+              <option value="Pending">Pending</option>
+            </td>
+            <td>1</td>
+            <td><div class="progress">
+              <label>Progress 100%</label>
+              <div class="progressborder">
+                <div class="progressbar" style="width: 100%;height: 100%;"></div>
+              </div>
+            </div></td>
+            <td>
+              <i class="fa fa-edit action fa-lg edit"></i>
+              <i class="fa fa-times action fa-lg delete"></i>
+            </td>
+          </tr> -->
+        </table>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
